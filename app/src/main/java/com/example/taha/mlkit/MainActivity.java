@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                                     new OnFailureListener() {
                                         @Override
                                         public void onFailure(@NonNull Exception e) {
+                                            //Code for on failure
                                             Toast.makeText(MainActivity.this, "Image Recognition Failed  " + e.getMessage(), Toast.LENGTH_SHORT).show();
                                         }
                                     });
